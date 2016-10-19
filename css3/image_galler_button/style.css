@@ -1,0 +1,51 @@
+.main{
+width:700px;
+height:auto; margin:0 auto;
+margin-top:20px}
+.absol{ position:absolute; top:20px; z-index:50; width:700px;
+}
+
+
+.menu{
+	    background-color: black;
+    height: 40px;
+    left: 157px;
+    
+    position: relative;
+    text-align: center;
+    top: -50px;
+    width: 345px;
+    z-index: 100;
+	padding-top:10px;
+	dispaly:block;
+}
+
+.menu ul{
+margin:0px;
+padding:0px;
+
+}
+.menu ul li{
+height:50px; width:69px; float:left; list-style:none; 
+
+}
+
+.menu ul li a{ color:#fff; font-size:14px; text-decoration:none; display:block;
+}
+
+.menu ul li a:hover{
+
+ background-color:gray; display:block;height:40px; width:69px;margin-top:-10px;padding-top:10px;
+
+}
+
+.hide img {
+display:none;
+}
+.hide:target img{
+display:block;
+}
+
+
+
+

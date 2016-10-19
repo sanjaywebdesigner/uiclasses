@@ -1,0 +1,43 @@
+.main{
+width:700px;
+height:auto; margin:0 auto; border:1px solid #EDEDED;}
+
+
+.menu{
+width:700px;
+height:50px;
+background-color:black;
+
+}
+
+.menu ul{
+margin:0px;
+padding:0px;
+
+}
+.menu ul li{
+height:50px; width:139px; line-height:50px; border-left:1px dotted #CCC7C7; float:left; text-align:center; list-style:none; display:block;
+
+}
+ 
+.menu ul li a{ color:#fff; font-size:14px; text-decoration:none; 
+}
+
+.menu ul li a:hover{
+
+ background-color:gray; display:block;
+
+}
+
+P{ text-align:justify;  padding:13px 10px; background-color:#fff}
+.paddi{padding:13px 10px; }
+.hide p{
+display:none;
+}
+.hide:target p{
+display:block;
+
+}
+
+.relati{ position:absolute; top:43px; z-index:100; width:680px;}
+

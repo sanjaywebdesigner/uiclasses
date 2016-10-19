@@ -1,0 +1,4 @@
+.outer{ width:500px; height:auto; background-color:#ECE8E8; margin:0 auto;}
+
+.hide p{ display:none;}
+.hide:target p{ display:block;}
