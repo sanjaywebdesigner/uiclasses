@@ -1,0 +1,54 @@
+<html>
+<head>
+<body>
+<style>
+@keyframes slidy {
+0% { left: 0; }
+18% { left:0; }
+20% { left: -100px; }
+38% { left: -100px; }
+40% { left: -200px; }
+58% { left: -200px; }
+60% { left: -300px; }
+78% { left: -300px; }
+80% { left: -400px; }
+100% { left: -400px; }
+}
+
+body { margin: 0; } 
+
+#slider {
+width:100px;
+margin:0 auto; }
+
+.img { 
+width: 20%; float: left;
+ 
+}
+
+
+#slider figure { 
+  position: relative;
+  width: 500px;
+  
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
+}
+
+
+</style>
+</head>
+<body>
+<div id="slider">
+<figure>
+<img src="image1.jpg" alt="" class="img">
+<img src="image2.jpg" alt="" class="img">
+<img src="image3.jpg" alt="" class="img">
+<img src="image4.jpg" alt="" class="img">
+<img src="image5.jpg" alt="" class="img">
+</figure>
+</div>
+</body>

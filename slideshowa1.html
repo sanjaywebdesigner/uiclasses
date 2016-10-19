@@ -1,0 +1,52 @@
+<html>
+<head>
+<body>
+<style>
+@keyframes slidy {
+0% { left: 0; }
+20% { left:0; }
+25% { left: -100px; }
+45% { left: -100px; }
+50% { left: -100px; }
+70% { left: -200px; }
+75% { left: -300px; }
+95% { left: -300px; }
+100% { left: -400px; }
+}
+
+body { margin: 0; } 
+
+div#slider { overflow: hidden;
+width:100px; }
+
+div#slider figure img { 
+width: 20%; float: left;
+ 
+}
+
+
+div#slider figure { 
+  position: relative;
+  width: 500px;
+  
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 5s slidy infinite; 
+}
+
+
+</style>
+</head>
+<body>
+<div id="slider">
+<figure>
+<img src="image1.jpg" alt="">
+<img src="image2.jpg" alt="">
+<img src="image3.jpg" alt="">
+<img src="image4.jpg" alt="">
+<img src="image5.jpg" alt="">
+</figure>
+</div>
+</body>
